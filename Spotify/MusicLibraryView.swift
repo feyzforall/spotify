@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MusicLibraryView.swift
 //  Spotify
 //
 //  Created by Feyzullah Kodat on 31.07.2024.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MusicLibraryView: View {
     var body: some View {
-      SpotifyTabView()
+        Text("Library")
     }
 }
 
 #Preview {
-    ContentView()
+    MusicLibraryView()
 }
